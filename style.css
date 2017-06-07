@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/53/37/4e/53374ec2ce6bc4f04e7699174ff438d2.jpg');*/
+  background-repeat: no-repeat;
+}
+.wrapper {
+  margin: 1%;
+}
+.menu_wrap {
+  float: left;
+  margin: 1%;
+}
+.menu_item {
+  margin: 2px auto;
+  background: lime;
+  border-radius: 10px;
+  padding: 25% 0 25% 0;
+  width: auto;
+}
+.contains_wrap {
+  float: left;
+  margin: 2px auto;
+  background-color: yellow;
+  border-radius: 10px;
+  padding-top: 1%;
+}
+.wrapper::after {
+  clear: both;
+  display: block;
+  content: "";
+}
